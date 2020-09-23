@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/mainstyles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startseite</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header centered_text">
+            <h1>
+                Kontakt
+            </h1>
+        </header>
+        <nav class="nav centered_text">
+            <button class="nav_buttons" onclick=" window.location.href='index.html' ; ">Startseite</button>
+            <button class="nav_buttons" onclick=" window.location.href='./lageplan.html' ; ">Lageplan</button>
+            <button class="nav_buttons" onclick=" window.location.href='./verbindungen.html' ; ">Verbindungen</button>
+            <button class="nav_buttons" onclick=" window.location.href='kontakt.html' ; ">Kontakt</button>
+        </nav>
+        <main class="content centered_text ">
+            <form action="https://formlog.offline.ch/log" method="post">
+
+                <div class="form_container">
+                    <div class="form_item">
+                        <div class="kontakt_div">
+                            <h3>Hast du noch Fragen? Kontaktiere uns!</h3>
+                            <label for="email">Deine Email-Adresse:</label><br>
+                            <input class="abstand" id="email" type="email" name="email" required><br>
+                        </div>
+                        <div class="kontakt_div">
+                            <label for="vorname">Dein Name:</label><br>
+                            <input id="vorname" type="text" name="vorname" required>
+                        </div>
+                        <div class="kontakt_div">
+                            <label for="farge">Deine Frage:</label><br>
+                            <textarea name="frage" id="frage" cols="30" rows="4"></textarea>
+                        </div>
+
+                    </div>
+                    <div>
+                        <!-- Ab do -->
+                        <div class="kontakt_div">
+                            <h3>Bewerte uns:</h3>
+                            <label for="m/w">Geben sie ihr Geschlecht an</label>
+                            <Select name="geschlecht" id="geschlecht">
+                                <option value="männlich">Männlich</option>
+                                <option value="weiblich">Weiblich</option>
+                                <option value="anderes">anderes</option>
+                            </Select>
+                        </div>
+                        <div>
+                            <p>Wie findest du unsere Webseite?</p>
+                            <input type="radio" name="bewertung1" id="bewertung">
+                            <label for="bewertung">Sehr gut</label>
+                            <br>
+
+                            <input type="radio" name="bewertung2" id="bewertung">
+                            <label for="bewertung">Gut</label>
+                            <br>
+
+                            <input type="radio" name="bewertung3" id="bewertung">
+                            <label for="bewertung">Okey</label>
+                            <br>
+
+                            <input type="radio" name="bewertung4" id="bewertung">
+                            <label for="bewertung">Nicht gut</label>
+                            <br>
+
+                            <input type="radio" name="bewertung5" id="bewertung">
+                            <label for="bewertung">Schlecht</label>
+
+                        </div>
+                    </div>
+
+                </div>
+                <button class=" kontakt_button " type=" submit " name=" kontaktaufnahme ">Formular absenden</button>
+            </form>
+
+        </main>
+        <aside class=" sidebar centered_text ">Sidebar</aside>
+        <footer class="footer centered_text ">
+            <h3>Das Wichtigste auf einen Bick:</h3>
+            <p>Adresse: Ebikonerstrasse 75<br> 6043 Adligenswil <br> Bushaltestelle: Adligenswil, Stuben <br> Kurszeiten: 8.30-16.30 inkl 1h Mittagspause</p>
+        </footer>
+        <div class="contact centered_text ">Die Webseite wurde erstellt von: <br> Rouven und Gian</div>
+
+
+    </div>
+</body>
+
+</html>
+
+</html>i
