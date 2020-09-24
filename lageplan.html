@@ -9,52 +9,53 @@
     <title>Lageplan</title>
 </head>
 
-<body>
-    <div class="container_lageplan">
-        <header class="header centered_text">
+<body onload="changeNav()">
+    <div class=" container_lageplan ">
+        <header class="header centered_text ">
             <h1>
                 Lageplan
             </h1>
         </header>
         <nav class="nav centered_text ">
-            <button class="nav_buttons" onclick=" window.location.href='index.html' ; ">Startseite</button>
-            <button class="nav_buttons" onclick=" window.location.href='./lageplan.html' ; ">Lageplan</button>
-            <button class="nav_buttons" onclick=" window.location.href='./verbindungen.html' ; ">Verbindungen</button>
-            <button class="nav_buttons" onclick=" window.location.href='kontakt.html' ; ">Kontakt</button>
+            <button class=" nav_buttons " onclick=" window.location.href='index.html ' ; ">Startseite</button>
+            <button class="nav_buttons " onclick=" window.location.href='./lageplan.html ' ; ">Wegbeschrieb</button>
+            <button class="nav_buttons " onclick=" window.location.href='./verbindungen.html ' ; ">Verbindungen</button>
+            <button class="nav_buttons " onclick=" window.location.href='kontakt.html ' ; ">Kontakt</button>
         </nav>
-        <main class="content centered_text centered_img">
-            <h2 class="centered_text_map_h2">Übersichtsplan:</h2>
-            <img class="margin10" src="./imgs/map.PNG" alt="Übersichtskarte">
-            <h2 class="centered_text_map_h2">Fotowegbeschrieb:</h2>
-            <img src="./imgs/bus.png" alt="Bild der Bushaltestelle Stuben">
-            <img src="./imgs/rot.png" alt="Bild des Gebäudes">
-            <img src="./imgs/eingang.PNG" alt="Eingang zum Gebäude">
+        <main class="content centered_text centered_img ">
+            <h2 class="centered_text_map_h2 ">Übersichtsplan:</h2>
+            <img class="width100" src="./imgs/map.PNG " alt="Übersichtskarte "><br> Hier siehst du die Karte. Wenn du an der richtigen Haltestelle ausgestiegen bist, hast du es fast geschafft. Der Ausbildungsort ist nur noch ca. 100 Meter entfernt.<br>
+            <img class="width100" src="./imgs/bus.png " alt="Bild der Bushaltestelle Stuben "><br> Auf diesem Bild kannst du die beiden Bushaltestellen sehen. Auf dem Bild ist mit einem roten Pfeil eingezeichnet in welche Richtung du gehen musst.<br>
+            <img class="width100" src="./imgs/rot.png " alt="Bild des Gebäudes "><br> Hier siehst du noch einmal wo du hinlaufen musst. Laufe einfach an dem roten Anbau ein bischen weiter.
+            <img class="width100" src="./imgs/eingang.PNG " alt="Eingang zum Gebäude "><br>
+            <p>Auf dem Bild siehst du den Eingang. Dir wird sofort klar wo du hinmusst, denn die Kursräume sind gut angeschrieben. Du kannst auf dem Sephir nachschauen in welchem Kursraum deine Gruppe ist.</p>
         </main>
         <aside class="sidebar centered_text ">
-            <div class="form_container">
-                <div class="form_item">
+            <div class="form_container ">
+                <div class="form_item ">
                     <h3>Essen bestellen:</h3>
                     <ul>
                         <li>
-                            <a href="https://www.telepizza.ch/web/produktkategorie/pizza/">Pizza bestellen</a>
+                            <a href="https://www.telepizza.ch/web/produktkategorie/pizza/ ">Pizza bestellen</a>
                         </li>
                         <li>
-                            <a href="https://bkh.ch/">Menüplan Bäckerei Hänggi</a>
+                            <a href="https://bkh.ch/ ">Menüplan Bäckerei Hänggi</a>
                         </li>
                         <li>
-                            <a href="http://pasta.041er-blj.ch/view/index.php">Pasta (ein Tag im Vorraus anmelden!)</a>
+                            <a href="http://pasta.041er-blj.ch/view/index.php ">Pasta (ein Tag im Vorraus anmelden!)</a>
                         </li>
                     </ul>
                 </div>
-                <h3 class="form_item">Es stehen ausserdem einige Mikrowellen frei zur Verfügung.</h3>
+                <h3 class="form_item ">Es stehen ausserdem einige Mikrowellen frei zur Verfügung.</h3>
+            </div>
         </aside>
         <footer class="footer centered_text ">
             <h3>Das Wichtigste auf einen Bick:</h3>
             <p>Adresse: Ebikonerstrasse 75<br> 6043 Adligenswil <br> Bushaltestelle: Adligenswil, Stuben <br> Kurszeiten: 8.30-16.30 inkl 1h Mittagspause</p>
         </footer>
-        <div class="contact centered_text_footer ">Fragen an: gian.federspiel@bluewin.ch</div>
-        </div>
+        <div class="contact centered_text_footer ">Bei Fragen bitte wende dich an: gian.federspiel@bluewin.ch. Oder nehme Kontakt über das
+            <a href="./kontakt.html">Kontaktformular</a> auf.</div>
+    </div>
 </body>
-<script src="functions.js"></script>
 
 </html>
