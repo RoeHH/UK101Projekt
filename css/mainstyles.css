@@ -415,7 +415,7 @@
     }
     .container {
         width: 350px;
-        margin: 0 35px;
+        margin: 0;
         display: grid;
         grid-gap: 5px;
         grid-template-rows: 120px 160px 700px 360px 200px 200px;
@@ -424,7 +424,7 @@
     .container_lageplan {
         padding: 0;
         width: 350px;
-        margin: 0 35px;
+        margin: 0;
         display: grid;
         grid-gap: 5px;
         grid-template-rows: 120px 160px 1450px 360px 200px 200px;
@@ -432,7 +432,7 @@
     }
     .container_verbindungen {
         width: 10vh;
-        margin: 0 35px;
+        margin: 0;
         display: grid;
         grid-gap: 5px;
         grid-template-rows: 120px 160px 1200px 360px 200px 200px;
