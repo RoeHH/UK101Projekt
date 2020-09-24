@@ -111,8 +111,6 @@
     background-color: #a3bc0a;
 }
 
-.body {}
-
 * {
     font-family: 'Crimson Text', serif, sans-serif;
 }
@@ -287,35 +285,43 @@
         margin-right: 100px;
         margin-left: 25px;
     }
+    .hand_font {
+        width: 400px;
+        margin-left: 5%;
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Caveat', 'Crimson Text', serif, sans-serif;
+        color: red;
+    }
 }
 
 
 /*ResponsivePhone*/
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 480px) {
+    body {
+        width: 100vh;
+    }
     .container {
-        width: 480px;
-        margin: 0 auto;
+        width: 10vh;
+        margin: 0 5%;
         display: grid;
-        padding: 20px;
         grid-gap: 5px;
         grid-template-rows: 120px 160px 700px 360px 200px 200px;
         grid-template-columns: 350px;
     }
     .container_lageplan {
-        width: 480px;
-        margin: 0 auto;
+        width: 10vh;
+        margin: 0 5%;
         display: grid;
-        padding: 20px;
         grid-gap: 5px;
         grid-template-rows: 120px 160px 1450px 360px 200px 200px;
         grid-template-columns: 350px;
     }
     .container_verbindungen {
-        width: 480px;
-        margin: 0 auto;
+        width: 10vh;
+        margin: 0 5%;
         display: grid;
-        padding: 20px;
         grid-gap: 5px;
         grid-template-rows: 120px 160px 1200px 360px 200px 200px;
         grid-template-columns: 350px;
